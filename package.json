@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gkaramanis1/employee-tracker#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "mysql2": "^2.3.3",
     "node-modules": "^1.0.1"
   }

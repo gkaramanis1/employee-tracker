@@ -36,7 +36,7 @@ function start() {
                 "Quit"
             ]
         })
-    .then(({answer}) => {
+    .then(function(answer) {
         if (answer.action === 'View All Departments') {
             viewDepartments();
         } else if (answer.action === 'View All Roles') {

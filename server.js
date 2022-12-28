@@ -7,14 +7,14 @@ const app = express();
 app.use(express.urlencoded({ extended: false}));
 app.use (express.json());
 
-const db = mysql.createConnection({
+const connection = mysql.createConnection({
     
     host: 'localhost',
     user: 'root',
     database: "employee_db"
 });
 
-db.connect(function(err) {
+connection.connect(function(err) {
     if(err) throw err;
     start();
 });

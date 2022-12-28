@@ -7,7 +7,7 @@
 -[Questions](#questions)
 
 ## Description
-This application is meant to be used to manage and view the departments, roles, and employees in a company so that you can organize and plan your business.
+This application is meant to be used to manage and view the departments, roles, and employees in a company so that you can organize and plan your business. Please refer to the demonstration video here. [Demonstration](https://app.castify.com/watch/62065823-bb97-4778-a221-3f313d054b3c)
 
 ## Installation
 To install inquirer, please use npm i inquirer@8.2.4.
